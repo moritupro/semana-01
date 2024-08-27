@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(179, 175, 175);
+}
+
+.formulario{
+    border-radius: 5px;
+    margin: 100px auto ;
+    width: 300px;
+    height: 300px;
+    color: black;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.formulario  h2{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+}
+form ul {
+   list-style: none;
+}
+
+form li{
+    margin: 10px;
+}
+
+form ul li input{
+   padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    transition:  background-color 0.3s, transform 0;
+}
+button:hover{
+    background-color: rgb(3, 109, 109);
+}
